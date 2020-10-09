@@ -2,7 +2,22 @@
 
 /* 回答はここに書いてね */
 
-.sample {
+.text {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.sample_t {
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #e6f2ff;
+  display: inline-block;
+  text-align: center;
+  Width: 90px;
+}
+
+.sample_m {
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: #e6f2ff;
