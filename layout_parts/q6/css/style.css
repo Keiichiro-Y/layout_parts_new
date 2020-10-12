@@ -2,20 +2,17 @@
 
 /* 回答はここに書いてね */
 
-.q6__box {
-  text-align: center;
-}
 
 .text {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: #e6f2ff;
   text-align: center;
-  width: 90px;
 }
 
 .sample_text {
   display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 90px;
+  background-color: #e6f2ff;
 }
 
 .sample_margn {
