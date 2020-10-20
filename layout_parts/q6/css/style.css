@@ -24,21 +24,28 @@
   Width: 90px;
 }
 
-.table_wrapper{
+.top {
   display: table;
 }
 
-.table {
+.table_wrapper {
   display: table-cell;
+  vertical-align: middle;
   text-align: center;
+}
+
+.table_child {
+  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px;
   background-color: #fff;
-  vertical-align: middle;
 }
 
-.child {
-  vertical-align: middle;
-}
-
+display: inline-block;
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
 
 /* 回答はここに書いてね */
 
