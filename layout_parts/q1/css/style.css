@@ -24,7 +24,7 @@
   background: #3274ae;
 }
 
-.q1_content .q1_content_box:first-child {
+.q1_content_box:first-child {
   margin-left: 0;
 }
 

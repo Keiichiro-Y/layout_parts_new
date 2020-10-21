@@ -16,17 +16,18 @@
   padding: 20px;
 }
 
-.q2_img1 {
+.q2_left {
   margin: 0px 20px 10px 0px;
   float: left;
 }
 
-.q2_img2 {
+.q2_right {
   margin: 0px 0px 10px 20px;
   float: right;
 }
 
 .content_text {
+  word-wrap: normal;
   font-size: 18px;
   line-height: 22px;
 }

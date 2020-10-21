@@ -2,9 +2,9 @@
 
 /* 回答はここに書いてね */
 
-.q5 {
+.position {
   position: relative;
-  margin: 0 auto;
+   margin: 0 auto;
   width: 500px;
   height: 500px;
   background-color: #ECF1F2;
