@@ -23,29 +23,29 @@
   padding: 20px 0px;
 }
 
-.primary_first {
+.primary_pink {
   width: 100px;
   background-color: #fdc8b8;
 }
 
-.secondary_first {
+.secondary_purple {
   background-color: #e0abd9;
 }
 
-.third_first {
+.third_blue {
   width: 100px;
   background-color: #b6d8ed;
 }
 
-.primary_second {
+.primary_yellow {
   background-color: #e5d32e;
 }
 
-.secondary_second {
+.secondary_red {
   background-color: #ec8f9a;
 }
 
-.third_second {
+.third_green {
   width: 500px;
   background-color: #8fdcad;
 }

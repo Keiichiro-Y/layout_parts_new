@@ -8,6 +8,33 @@
   clear: both;
 }
 
+.main {
+  margin: 0 auto;
+  width: 900px;
+  padding: 20px;
+  background-color: #eff3f4;
+}
+
+.content:first-child {
+  margin-left: 0px;
+}
+
+.content {
+  float: left;
+  margin-left: 20px;
+  width: 230px;
+  padding: 20px;
+  background-color:#3274ae;
+}
+
+.content_box {
+  padding: 20px;
+  border: solid 10px #022336;
+  background-color: #eaf4ff;
+}
+
+
+
 .q1_content {
   width: 900px;
   margin: 0 auto;

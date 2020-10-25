@@ -51,11 +51,11 @@
   background-color: #fff;
 }
 
-.kotei {
+.fixed {
   position: relative;
 }
 
-.kotei_box {
+.fixed_box {
   position: absolute;
   top: 0;
   right: 0;
@@ -64,11 +64,11 @@
   margin: auto;
 }
 
-.kahenn {
+.variable {
   position: relative;
 }
 
-.kahenn_box {
+.variable_box {
   position: absolute;
   top: 50%;
   left: 50%;

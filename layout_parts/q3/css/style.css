@@ -2,37 +2,63 @@
 
 /* 回答はここに書いてね */
 
-.table_box {
-  margin: 0 auto;
-  width: 100%;
-  table-layout: fixed;
-  text-align: center;
+.content {
+  margin: 0;
 }
 
-.table_box th,td {
+.content_box {
+  table-layout: fixed;
+  width: 100%;
+  text-align: center;
+
+}
+
+.content_box thead th {
+  padding: 10px;
+  background-color: #2244aa;
+  border: solid #dedede 1px;
+  font-size: 18px;
+  line-height: 26px;
+  color: white;
+}
+
+.content_box tbody td {
+  padding: 10px;
+  border: solid #dedede 1px;
+}
+
+.content_box tfoot td {
+  padding: 10px;
+  border: solid #dedede 1px;
+}
+
+.content_box tbody th{
+  background-color: #2244aa;
   border: solid #dedede 1px;
   padding: 10px;
+  font-size: 18px;
+  line-height: 26px;
+  color: white;
 }
 
-.table_box tr:nth-child(even) {
+.content_box tfoot th{
+  background-color: #2244aa;
+  border: solid #dedede 1px;
+  padding: 10px;
+  font-size: 18px;
+  line-height: 26px;
+  color: white;
+}
+
+.content_box tbody tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 
-.table_box thead,th:first-child {
-  background-color: #2244aa;
-  color: white;
-  font-size: 18px;
-  line-height: 26px;
-}
-
-.teble_box tr,th,td {
-  font-size: 16px;
-  line-height: 22px;
-}
-
-.table_box tfoot {
+.content_box tfoot {
   border-top: dashed #000 2px;
 }
+
+
 
 
 
