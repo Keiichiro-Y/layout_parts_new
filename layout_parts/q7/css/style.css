@@ -2,14 +2,49 @@
 
 /* 回答はここに書いてね */
 
-.left {
+.float_box::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.float_left_box {
+  float: left;
   width: 225px;
-  height: 100%;
+  font-size: 16px;
+  box-sizing: border-box;
 }
 
-.right {
-  
+.float_right_box {
+  float: right;
+  width: 225px;
+  margin-left: 50px;
+  font-size: 16px;
+  box-sizing: border-box;
 }
 
+.table_main {
+  display: table;
+}
 
+.table_box_left {
+  display: table-cell;
+  vertical-align: middle;
+  width: 225px;
+}
+
+.table_box_right {
+  display: table-cell;
+  vertical-align: middle;
+  width: 225px;
+  padding-left: 50px;
+}
+
+.table_box_left_box {
+  font-size: 16px;
+}
+
+.table_box_right_box {
+  font-size: 16px;
+}
 /* 回答はここに書いてね */
