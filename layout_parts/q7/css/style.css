@@ -47,4 +47,27 @@
 .table_box_right_box {
   font-size: 16px;
 }
+
+.inline_main {
+  font-size: 0px;
+}
+
+.inline_left_box {
+  display: inline-block;
+  width: 225px;
+  font-size: 16px;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+
+.inline_right_box {
+  display: inline-block;
+  margin-left: 50px;
+  width: 225px;
+  font-size: 16px;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
 /* 回答はここに書いてね */
