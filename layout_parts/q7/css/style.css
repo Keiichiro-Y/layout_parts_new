@@ -82,6 +82,26 @@
   box-sizing: border-box;
 }
 
+.bottom_box {
+  font-size: 0;
+}
 
+.bottom_box_left {
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+}
+
+.bottom_box_right{
+  display: inline-block;
+  width: 100%;
+  padding-left: 350px;
+  margin-left: -300px;
+  box-sizing: border-box;
+}
+
+.bottom_box_text {
+  font-size: 16px;
+}
 
 /* 回答はここに書いてね */
