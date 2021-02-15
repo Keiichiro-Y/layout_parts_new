@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
-/* 回答はここに書いてね */
-
+/* 回答はここに書いてね */ 
 
 .text {
   text-align: center;
@@ -72,7 +71,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateY(-50%) translateX(-50%);
 }
 
 /* 回答はここに書いてね */

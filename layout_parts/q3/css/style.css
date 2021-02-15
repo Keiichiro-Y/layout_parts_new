@@ -2,62 +2,40 @@
 
 /* 回答はここに書いてね */
 
-.content {
-  margin: 0;
-}
 
-.content_box {
+.q3__contents {
   table-layout: fixed;
   width: 100%;
+  border: solid 1px #dedede;
+}
+
+.q3__contents th,
+.q3__contents td {
+  padding: 10px;
+  border: solid 1px #dedede;
+  /* text-align: center; */
+  vertical-align: middle;
+}
+
+.q3__contents th {
+  color: #fff;
+  background-color: #2244aa;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.q3__contents td {
   text-align: center;
-
+  line-height: 22px;
 }
 
-.content_box thead th {
-  padding: 10px;
-  background-color: #2244aa;
-  border: solid #dedede 1px;
-  font-size: 18px;
-  line-height: 26px;
-  color: white;
+.q3__contents tbody tr:nth-child(even) {
+  background-color: #ECF1F2;
 }
 
-.content_box tbody td {
-  padding: 10px;
-  border: solid #dedede 1px;
-}
-
-.content_box tfoot td {
-  padding: 10px;
-  border: solid #dedede 1px;
-}
-
-.content_box tbody th{
-  background-color: #2244aa;
-  border: solid #dedede 1px;
-  padding: 10px;
-  font-size: 18px;
-  line-height: 26px;
-  color: white;
-}
-
-.content_box tfoot th{
-  background-color: #2244aa;
-  border: solid #dedede 1px;
-  padding: 10px;
-  font-size: 18px;
-  line-height: 26px;
-  color: white;
-}
-
-.content_box tbody tr:nth-child(even) {
-  background-color: #ecf1f2;
-}
-
-.content_box tfoot {
+.q3__contents tfoot {
   border-top: dashed #000 2px;
 }
-
 
 
 
