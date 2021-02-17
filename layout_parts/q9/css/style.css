@@ -4,11 +4,11 @@
 
 .q9__bubble {
   position: relative;
-  margin: 0 auto;
   width: 500px;
   padding: 20px;
   border: solid 5px #222;
   border-radius: 30px;
+  margin: 0 auto;
 }
 
 .q9__bubble::before,

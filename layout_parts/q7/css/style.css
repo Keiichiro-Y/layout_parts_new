@@ -2,85 +2,85 @@
 
 /* 回答はここに書いてね */
 
-.float_box::after {
+
+
+.clearfix:after {
   display: block;
   content: "";
   clear: both;
 }
 
-.float_left_box {
+.q7__float__box {
+  width: 225px;
   float: left;
-  width: 225px;
-  font-size: 16px;
-  box-sizing: border-box;
-}
-
-.float_right_box {
-  float: right;
-  width: 225px;
+  padding: 10px;
   margin-left: 50px;
   font-size: 16px;
   box-sizing: border-box;
+  background-color: #FFF;
 }
 
-.table_main {
+.q7__float__box:first-child {
+  margin-left: 0;
+}
+
+
+
+.table__main {
   display: table;
 }
 
-.table_box_left {
-  display: table-cell;
-  vertical-align: middle;
-  width: 225px;
-}
 
-.table_box_right {
+.table__box {
   display: table-cell;
   vertical-align: middle;
-  width: 225px;
   padding-left: 50px;
+  width: 225px;
 }
 
-.table_box_left_box {
+.table__box:first-child {
+  padding-left: 0;
+}
+
+.table__box__text {
   font-size: 16px;
 }
 
-.table_box_right_box {
-  font-size: 16px;
-}
 
-.inline_main {
+.inline__box {
   font-size: 0px;
 }
 
-.inline_left_box {
+.inline__text {
   display: inline-block;
   width: 225px;
-  font-size: 16px;
-  vertical-align: middle;
-  box-sizing: border-box;
-}
-
-
-.inline_right_box {
-  display: inline-block;
   margin-left: 50px;
-  vertical-align: middle;
-  width: 225px;
-  font-size: 16px;
   box-sizing: border-box;
+  vertical-align: middle;
+  font-size: 16px;
 }
 
-.flex_main {
+.inline__text:first-child {
+  margin-left: 0;
+}
+
+
+
+
+
+.flex__main {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
 }
 
-.flex_box {
+.flex__box {
   width: 225px;
   font-size: 16px;
   box-sizing: border-box;
 }
+
+
 
 .bottom_box {
   font-size: 0;
